@@ -35,7 +35,7 @@ const Hero = () => {
         <HeroOneButton
           title={
             <>
-              {'Using test ML/AI to Detect\n'}
+              {'Using ML/AI to Detect\n'}
               <span className="text-primary-500">AGDs</span>
             </>
           }
