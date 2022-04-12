@@ -54,16 +54,16 @@ export default function Example({
                   }
                   value={color}
                 >
-                  {({ selected }) => (
+                  {({ selected: selectedOption }) => (
                     <>
                       <span
                         className={`block truncate ${
-                          selected ? 'font-medium' : 'font-normal'
+                          selectedOption ? 'font-medium' : 'font-normal'
                         }`}
                       >
                         {color.name}
                       </span>
-                      {selected ? (
+                      {selectedOption ? (
                         <span className="absolute inset-y-0 left-0 flex items-center pl-3 text-slate-600">
                           <CheckIcon className="w-5 h-5" aria-hidden="true" />
                         </span>
