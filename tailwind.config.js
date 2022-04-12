@@ -17,7 +17,7 @@ module.exports = {
     },
     extend: {
       colors: {
-        primary: { ...colors.emerald },
+        primary: { ...colors.red },
         gray: { ...colors.gray },
       },
       lineHeight: {
