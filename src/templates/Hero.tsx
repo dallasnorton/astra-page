@@ -10,7 +10,7 @@ import { Logo } from './Logo';
 
 const Hero = () => {
   const onChange = (value: { name: string }) => {
-    console.log('changed', value);
+    console.log(value);
   };
 
   return (
