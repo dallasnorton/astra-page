@@ -12,7 +12,7 @@ import { Logo } from './Logo';
 
 const Hero = () => {
   const [isLoading, setIsLoading] = useState(false);
-  const onChange = async (value: { name: string }) => {
+  const onChange = async () => {
     try {
       setIsLoading(true);
       const resp = await fetch('https://cat-fact.herokuapp.com/facts');
