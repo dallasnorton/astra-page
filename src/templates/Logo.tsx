@@ -15,7 +15,7 @@ const Logo = (props: ILogoProps) => {
   return (
     <span className={`text-gray-900 inline-flex items-center ${fontStyle}`}>
       <img
-        src={`${router.basePath}/assets/images/f5-logo.svg`}
+        src={`${router.basePath}assets/images/f5-logo.svg`}
         alt={''}
         className="h-8 w-8 mr-2"
       />
