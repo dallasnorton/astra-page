@@ -20,10 +20,6 @@ module.exports = {
         primary: { ...colors.red },
         red: { ...colors.red },
         emerald: { ...colors.emerald },
-        cyan: { ...colors.cyan },
-        sky: { ...colors.sky },
-        purple: { ...colors.purple },
-        amber: { ...colors.amber },
         gray: { ...colors.gray },
       },
       lineHeight: {
