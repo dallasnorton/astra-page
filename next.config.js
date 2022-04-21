@@ -4,6 +4,7 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 });
 
+// for assets to work with eve nginx server the assetPrefix should be 'BRANCH NAME'
 module.exports = withBundleAnalyzer({
   poweredByHeader: false,
   trailingSlash: true,
